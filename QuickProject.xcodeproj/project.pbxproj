@@ -6,6 +6,11 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B2285FE5201A2E010049B041 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2285FE4201A2E010049B041 /* Runner.cpp */; };
+		B2285FE9201A2E110049B041 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2285FE7201A2E110049B041 /* Controller.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		B2285FD7201A2C500049B041 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -20,6 +25,9 @@
 
 /* Begin PBXFileReference section */
 		B2285FD9201A2C500049B041 /* QuickProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = QuickProject; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2285FE4201A2E010049B041 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
+		B2285FE7201A2E110049B041 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
+		B2285FE8201A2E110049B041 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +60,19 @@
 		B2285FDB201A2C500049B041 /* QuickProject */ = {
 			isa = PBXGroup;
 			children = (
+				B2285FE3201A2DDB0049B041 /* Controller */,
 			);
 			path = QuickProject;
+			sourceTree = "<group>";
+		};
+		B2285FE3201A2DDB0049B041 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B2285FE4201A2E010049B041 /* Runner.cpp */,
+				B2285FE7201A2E110049B041 /* Controller.cpp */,
+				B2285FE8201A2E110049B041 /* Controller.hpp */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,6 +132,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2285FE5201A2E010049B041 /* Runner.cpp in Sources */,
+				B2285FE9201A2E110049B041 /* Controller.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
