@@ -28,7 +28,7 @@ void Controller :: start()
 }
 
 //type arrayName [ arraySize ];
-double balance[10];
+//double balance[10];
 //these are technecally the same thing
 //double balance[] = {1000.0,2.0,3.4,17.0,50.0};  <---- arrays it will print the same number as the one before
 //to access array
