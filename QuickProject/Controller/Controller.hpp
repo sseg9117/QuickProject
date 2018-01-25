@@ -21,6 +21,8 @@ public:
     //Anyone can see this.
     Controller();
     void start();
+    void array();
     //Ths is a prototype
 };
 #endif /* Controller_hpp */
+
