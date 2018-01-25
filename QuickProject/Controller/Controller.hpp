@@ -9,6 +9,8 @@
 #ifndef Controller_hpp
 #define Controller_hpp
 
+#include <iostream>
+
 class Controller
 {
 private:
@@ -17,5 +19,8 @@ protected:
     //Things that need to only be used by subclasses
 public:
     //Anyone can see this.
+    Controller();
+    void start();
+    //Ths is a prototype
 };
 #endif /* Controller_hpp */
